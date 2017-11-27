@@ -1,0 +1,39 @@
+.face {
+    background: #FBD462;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.eye-1 {
+    background: black;
+    width: 13px;
+    height: 20px;
+    border-radius: 50%;
+    position: fixed;
+    top: 31px;
+    left: 40px;
+    transform: rotate(-5deg);
+}
+
+.eye-2 {
+    background: black;
+    width: 13px;
+    height: 20px;
+    border-radius: 50%;
+    position: fixed;
+    top: 31px;
+    left: 80px;
+    transform: rotate(-5deg);
+}
+
+.mouth {
+    background: black;
+    width: 30px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    top: 50px;
+    left: 55px;
+    transform: rotate(-3deg);
+}
