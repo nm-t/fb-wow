@@ -5,6 +5,28 @@
     border-radius: 50%;
 }
 
+.eyebrow-1 {
+    width: 15px;
+    height: 15px;
+    border: solid 3px;
+    position: fixed;
+    top: 22px;
+    left: 34px;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 50%;
+}
+
+.eyebrow-2 {
+    width: 15px;
+    height: 15px;
+    border: solid 3px;
+    position: fixed;
+    top: 22px;
+    left: 74px;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 50%;
+}
+
 .eye-1 {
     background: black;
     width: 13px;
