@@ -67,7 +67,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-name: wao;
 }
 
@@ -76,6 +76,6 @@
         transform: translateX(-50%) scale(1, 1);
     }
     to {
-        transform: translateX(-50%) scale(0.5, 0.3);
+        transform: translateX(-90%) translateY(-20%) rotate(10deg) scale(0.5, 0.4);
     }
 }
