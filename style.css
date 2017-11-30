@@ -1,7 +1,7 @@
 .face {
     background: #FBD462;
-    width: 220px;
-    height: 220px;
+    width: 96px;
+    height: 96px;
     border-radius: 50%;
     position: relative;
 }
@@ -13,10 +13,20 @@
 .eyebrow {
     width: 12.5%;
     height: 12.5%;
-    top: 17%;
+    top: 8%;
     border: solid 4px;
     border-color: #000 transparent transparent transparent;
     border-radius: 50%;
+}
+
+.eyebrow-1 {
+    left: 19%;
+    transform: rotate(-10deg);
+}
+
+.eyebrow-2 {
+    right: 19%;
+    transform: rotate(10deg);
 }
 
 .eye,
@@ -24,37 +34,28 @@
     background: black;
 }
 
-.eyebrow-1 {
-    left: 25%;
-    transform: rotate(-10deg);
-}
-
-.eyebrow-2 {
-    left: 70%;
-    transform: rotate(10deg);
-}
-
 .eye {
-    width: 12.5%;
-    height: 20%;
-    top: 33%;
+    width: 14%;
+    height: 23%;
+    top: 27%;
     border-radius: 50%;
 }
 
 .eye-1 {
-    left: 28%;
-    transform: rotate(5deg);
+    left: 19%;
+    transform: rotate(9deg);
 }
 
 .eye-2 {
-    left: 72%;
-    transform: rotate(-5deg);
+    right: 19%;
+    transform: rotate(-9deg);
 }
 
 .mouth {
     width: 25%;
     height: 42%;
     border-radius: 50%;
-    top: 58%;
+    top: 50%;
     left: 50%;
+    transform: translateX(-50%);
 }
