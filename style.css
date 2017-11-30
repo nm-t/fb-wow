@@ -39,6 +39,17 @@
     height: 23%;
     top: 27%;
     border-radius: 50%;
+    animation-duration: 3s;
+    animation-name: blink;
+}
+
+@keyframes blink {
+    from {
+        height: 23%;
+    }
+    to {
+        height: 0%;
+    }
 }
 
 .eye-1 {
