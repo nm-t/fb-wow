@@ -1,62 +1,60 @@
 .face {
     background: #FBD462;
-    width: 120px;
-    height: 120px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.face-feature {
+    position: absolute;
+}
+
+.eyebrow {
+    width: 12.5%;
+    height: 12.5%;
+    top: 17%;
+    border: solid 4px;
+    border-color: #000 transparent transparent transparent;
     border-radius: 50%;
 }
 
+.eye,
+.mouth {
+    background: black;
+}
+
 .eyebrow-1 {
-    width: 15px;
-    height: 15px;
-    border: solid 4px;
-    position: fixed;
-    top: 19px;
-    left: 31px;
-    border-color: #000 transparent transparent transparent;
-    border-radius: 50%;
+    left: 25%;
     transform: rotate(-10deg);
 }
 
 .eyebrow-2 {
-    width: 15px;
-    height: 15px;
-    border: solid 4px;
-    position: fixed;
-    top: 19px;
-    left: 85px;
-    border-color: #000 transparent transparent transparent;
-    border-radius: 50%;
+    left: 70%;
     transform: rotate(10deg);
 }
 
-.eye-1 {
-    background: black;
-    width: 15px;
-    height: 23px;
+.eye {
+    width: 12.5%;
+    height: 20%;
+    top: 33%;
     border-radius: 50%;
-    position: fixed;
-    top: 40px;
-    left: 34px;
+}
+
+.eye-1 {
+    left: 28%;
     transform: rotate(5deg);
 }
 
 .eye-2 {
-    background: black;
-    width: 15px;
-    height: 23px;
-    border-radius: 50%;
-    position: fixed;
-    top: 40px;
-    left: 86px;
+    left: 72%;
     transform: rotate(-5deg);
 }
 
 .mouth {
-    background: black;
-    width: 30px;
-    height: 50px;
+    width: 25%;
+    height: 42%;
     border-radius: 50%;
-    position: fixed;
-    top: 70px;
-    left: 55px;
+    top: 58%;
+    left: 50%;
 }
