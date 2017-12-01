@@ -86,7 +86,7 @@
     }
 
     81% {
-        transform: translateX(35%) translateY(-20%) rotate(-10deg) scale(1, 1);
+        transform: translateX(15%) translateY(-10%) rotate(-15deg) scale(1, 1);
     }
 
     to {
