@@ -17,6 +17,19 @@
     border: solid 4px;
     border-color: #000 transparent transparent transparent;
     border-radius: 50%;
+    animation-duration: 2s;
+    animation-name: eyebrow-swing;
+    animation-iteration-count: infinite;
+}
+
+@keyframes eyebrow-swing {
+    from {
+    }
+    50% {
+        transform: rotate(15deg) translateX(-50%);
+    }
+    to {
+    }
 }
 
 .eyebrow-1 {
@@ -39,14 +52,20 @@
     height: 23%;
     top: 27%;
     border-radius: 50%;
+    animation-duration: 2s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
 }
 
 @keyframes blink {
     from {
-        transform: translateY(0%);
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: rotate(15deg) translateX(-50%) scale(1, 0.00001);
     }
     to {
-        transform: translateY(50%);
+        transform: scale(1, 1);
     }
 }
 
