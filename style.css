@@ -1,9 +1,18 @@
-.face {
+.face-bg {
     background: #FBD462;
     width: 96px;
     height: 96px;
     border-radius: 50%;
     position: relative;
+}
+
+.face {
+    width: 96px;
+    height: 96px;
+    position: relative;
+    animation-duration: 2s;
+    animation-name: eyebrow-swing;
+    animation-iteration-count: infinite;
 }
 
 .face-feature {
@@ -18,7 +27,7 @@
     border-color: #000 transparent transparent transparent;
     border-radius: 50%;
     animation-duration: 2s;
-    animation-name: eyebrow-swing;
+    /* animation-name: eyebrow-swing; */
     animation-iteration-count: infinite;
 }
 
@@ -53,7 +62,7 @@
     top: 27%;
     border-radius: 50%;
     animation-duration: 2s;
-    animation-name: blink;
+    /* animation-name: blink; */
     animation-iteration-count: infinite;
 }
 
@@ -61,8 +70,11 @@
     from {
         transform: scale(1, 1);
     }
-    50% {
+    33% {
         transform: rotate(15deg) translateX(-50%) scale(1, 0.00001);
+    }
+    5% {
+        transform: rotate(15deg) translateX(-50%) scale(1, 1);
     }
     to {
         transform: scale(1, 1);
@@ -86,8 +98,8 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
-    animation-duration: 5s;
-    animation-name: wao;
+    animation-duration: 2s;
+    /* animation-name: wao; */
     animation-iteration-count: infinite;
 }
 
