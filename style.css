@@ -106,11 +106,7 @@
     }
 
     33% {
-        transform: translateX(-50%) scale(0.5, 0.4);
-    }
-
-    54% {
-        transform: translateX(-50%) scale(0.5, 0.4);
+        transform: translateX(-80%) translateY(-20%) scale(0.5, 0.4);
     }
 
     81% {
