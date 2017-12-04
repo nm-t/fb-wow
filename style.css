@@ -9,7 +9,10 @@
 .face {
     width: 96px;
     height: 96px;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 0% 200%;
     animation-duration: 2s;
     animation-name: eyebrow-swing;
     animation-iteration-count: infinite;
