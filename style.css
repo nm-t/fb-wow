@@ -10,7 +10,7 @@
     width: 96px;
     height: 96px;
     position: relative;
-    transform-origin: 0% 200%;
+    /* transform-origin: 0% 200%; */
     animation-duration: 2s;
     animation-name: face-swing;
     animation-iteration-count: infinite;
@@ -20,7 +20,10 @@
     from {
     }
     50% {
-        transform: rotate(15deg) translateX(-50%);
+        transform: rotate(15deg) translateX(-10%);
+    }
+    75% {
+        transform: rotate(-15deg) translateX(10%);
     }
     to {
     }
@@ -67,11 +70,35 @@
     from {
         transform: scale(1, 1);
     }
-    33% {
+    4% {
+        transform: scale(1, 1);
+    }
+    11% {
         transform: scale(1, 0.00001);
+    }
+    18% {
+        transform: scale(1, 1);
+    }
+    28% {
+        transform: scale(1, 1);
+    }
+    37% {
+        transform: scale(1, 1);
+    }
+    44% {
+        transform: scale(1, 0.00001);
+    }
+    51% {
+        transform: scale(1, 1);
     }
     54% {
         transform: scale(1, 1);
+    }
+    88% {
+        transform: scale(1, 1);
+    }
+    95% {
+        transform: scale(1, 0.00001);
     }
     to {
         transform: scale(1, 1);
